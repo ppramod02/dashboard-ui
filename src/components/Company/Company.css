@@ -32,3 +32,8 @@
     flex-direction: column;
     gap: 8px;
 }
+
+.company .info p {
+    color: #3D3D3D;
+    font-weight: 500;
+}
