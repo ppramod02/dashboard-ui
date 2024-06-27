@@ -1,0 +1,29 @@
+
+.requirements {
+    /* height: 115px;  */
+    width: 1319px;
+    display: flex;
+    padding: 32px 100px;
+    gap: 64px;
+    border-top: 1px solid var(--light-600);
+}
+
+.requirements .item {
+    width: 170px;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.requirements .tool-pill {
+    width: fit-content;
+    display: flex;
+    padding: 3px 5px 3px 5px;
+    gap: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #344054;
+    border: 1px solid #D0D5DD;
+    border-radius: 6px;
+}

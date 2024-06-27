@@ -1,0 +1,28 @@
+
+.menu {
+    padding: 20px 100px;
+    display: flex;
+    gap: 72px;
+    border: 1px solid var(--light-600);
+    height: 67px;
+}
+
+.menu .active {
+    position: relative;
+    color: var(--theme);
+    font-weight: 600;
+}
+
+.menu .active::after {
+    content: "";
+    position: absolute;
+    top: 45px;
+    left: 25px;
+    height: 2px;
+    width: 65px;
+    background: var(--theme);
+}
+
+.menu .option {
+    color: #888;;
+}
