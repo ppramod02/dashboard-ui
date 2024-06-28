@@ -1,7 +1,7 @@
 
 
 .company { 
-    width: 1319px;
+    width: 100%;
     padding: 32px 100px;
     border-top: 1px solid var(--light-600);
     display: flex;

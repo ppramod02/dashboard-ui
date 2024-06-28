@@ -1,6 +1,6 @@
  
 .head {
-    width: 1319px;
+    width: 100%;
     border-top: 1px solid var(--light-600);
     padding: 35px 100px 32px 100px;
 }

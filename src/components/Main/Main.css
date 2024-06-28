@@ -3,3 +3,14 @@
 .main {
     display: flex;
 }
+
+.main .section-left {
+    width: 1319px;
+}
+
+@media screen and (width < 1728px) {
+    .main .section-left {
+        width: 1024px;
+        flex-grow: 1;
+    }
+}
