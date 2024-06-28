@@ -43,6 +43,6 @@
     background: var(--light-600);
 }
 
-.info .stats .val {
+.stats .item .val h5 {
     font-size: 20px;
 }
